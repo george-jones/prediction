@@ -1,7 +1,7 @@
 # prediction
 Prediction Market Analysis
 
-I made this project to test a hypothesis that for logically related outcomes, changes in one could be used to give an early, exploitable signal, in another. The example was a US presidential primary election. Since there are state-specific contracts, and contracts for the overall winner, these contracts are related. My guess was that, if hypothetically, the price of the red candidate in Alaska went up (meaning, the probability of the red candidate winning that state was estimated by market participants to have gone up), then after a slight lag, the price of the red candidate overall contract would increase.
+I made this project to test a hypothesis that for logically related outcomes, changes in one could be used to give an early, exploitable signal, in another. The example was a US presidential primary election. Since there are state-specific contracts, and contracts for the overall winner, these contracts are related. My guess was that, if hypothetically, the price of the candidate A in Alaska went up (meaning, the probability of the red candidate winning that state's primry election was estimated by market participants to have gone up), then after a slight lag, the price of the red candidate overall contract would increase.
 
 This experiment scraped data from the intrade website.
 
